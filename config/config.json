@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "copy-document-id-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/copyDocumentId/CopyDocumentIdCommandSet.js",
+          "manifest": "./src/extensions/copyDocumentId/CopyDocumentIdCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CopyDocumentIdCommandSetStrings": "lib/extensions/copyDocumentId/loc/{locale}.js"
+  }
+}
