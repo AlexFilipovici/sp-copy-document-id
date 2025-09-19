@@ -7,7 +7,7 @@
       "pageUrl": "https://dpdhl.sharepoint.com/sites/rest-api-created-site/LibB/Forms/AllItems.aspx",
       "customActions": {
         "3d1a484b-a702-454b-b248-4ac7fa5a5f81": {
-          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "location": "ClientSideExtension.ListViewCommandSet",
           "properties": {
             "sampleTextOne": "One item is selected in the list",
             "sampleTextTwo": "This command is always visible."

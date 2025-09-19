@@ -5,7 +5,7 @@ import {
   type IListViewCommandSetExecuteEventParameters,
   type ListViewStateChangedEventArgs
 } from '@microsoft/sp-listview-extensibility';
-import { Dialog } from '@microsoft/sp-dialog';
+// import { Dialog } from '@microsoft/sp-dialog';
 
 /**
  * If your command set uses the ClientSideComponentProperties JSON input,
@@ -44,9 +44,9 @@ export default class CopyDocumentIdCommandSet extends BaseListViewCommandSet<ICo
 
           await navigator.clipboard.writeText(documentId);
 
-          Dialog.alert(`Document ID ${documentId} copied to clipboard.`,).catch(() => {
-            /* handle error */
-          });
+          // Dialog.alert(`Document ID ${documentId} copied to clipboard.`,).catch(() => {
+          //   /* handle error */
+          // });
         }
 
       break;

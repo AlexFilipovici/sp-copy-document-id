@@ -2,14 +2,8 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
     <ClientSideComponentInstance
         Title="CopyDocumentId"
-        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
-        ListTemplateId="100"
+        Location="ClientSideExtension.ListViewCommandSet"
+        ListTemplateId="101"
         Properties="{&quot;sampleTextOne&quot;:&quot;One item is selected in the list.&quot;, &quot;sampleTextTwo&quot;:&quot;This command is always visible.&quot;}"
         ComponentId="3d1a484b-a702-454b-b248-4ac7fa5a5f81" />
-    <ClientSideComponentInstance
-        Title="CopyDocumentId"
-        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
-        ListTemplateId="100"
-        Properties="{&quot;sampleTextOne&quot;:&quot;One item is selected in the list.&quot;, &quot;sampleTextTwo&quot;:&quot;This command is always visible.&quot;}"
-        ComponentId="e2b7c9a1-5f4b-4e2a-9c3d-8f2e7a6b1c2d" />
 </Elements>
